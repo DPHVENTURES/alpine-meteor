@@ -1,6 +1,4 @@
-FROM mhart/alpine-node:4.8.3
-
-MAINTAINER Martin Bucko <bucko@treecom.net>
+FROM nodejs/docker-node
 
 ENV METEORD_DIR="/opt/meteord" BUILD_PACKAGES="python make gcc g++ git libuv bash curl tar bzip2"
 
